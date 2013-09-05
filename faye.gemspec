@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   # contain the browser client and the gem should fail to build without it. You
   # should generate them by running `bundle exec jake` in the project root.
   s.files = %w[History.txt README.rdoc] +
-            %w[lib/faye-browser.js lib/faye-browser-min.js lib/faye-browser-min.js.map] +
+            %w[lib/faye-browser.js lib/faye-browser-min.js] +
             Dir.glob("{spec,lib}/**/*")
   
   s.add_dependency "cookiejar", ">= 0.3.0"
